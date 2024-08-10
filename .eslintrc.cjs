@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react/jsx-no-target-blank': 'off',
+    "eslint-disable no-unused-vars",
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
